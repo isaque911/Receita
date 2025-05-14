@@ -1,0 +1,50 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #5BBE42;
+}
+
+main {
+  padding: 20px;
+}
+
+.receita {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
